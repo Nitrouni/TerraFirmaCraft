@@ -75,16 +75,16 @@ tfc.command.stripworld.done=안돼!
 # Gui
 
 ## Tooltips
-tfc.tooltip.food_expiry_date.days=약 %s 날짜안에 상합니다!
-tfc.tooltip.toolclass=§fTool Class:§7 %s
-tfc.tooltip.toolclasses=§fTool Classes:
-tfc.tooltip.oredictionaryentry=§fOre Dictionary name:§7 %s
-tfc.tooltip.oredictionaryentries=§fOre Dictionary names:
-tfc.tooltip.metal=§fMetal:§7 %s
-tfc.tooltip.units=%d units
-tfc.tooltip.crucible_units=%d / %d units
-tfc.tooltip.units.total=§6%d total units
-tfc.tooltip.units.info_total=%d units / §6%d total
+tfc.tooltip.food_expiry_date.days=약 %s 일안에 상합니다!
+tfc.tooltip.toolclass=§f도구 등급:§7 %s
+tfc.tooltip.toolclasses=§f도구 등급들:
+tfc.tooltip.oredictionaryentry=§f광물사전 이름:§7 %s
+tfc.tooltip.oredictionaryentries=§f광물사전 이름들:
+tfc.tooltip.metal=§f금속:§7 %s
+tfc.tooltip.units=%d 유닛
+tfc.tooltip.crucible_units=%d / %d 유닛
+tfc.tooltip.units.total=§6%d 총 유닛
+tfc.tooltip.units.info_total=%d 유닛 / §6%d 총 유닛
 tfc.tooltip.smelting=제련도 %s
 tfc.tooltip.liquid= - 액체
 tfc.tooltip.solid= - 고체
@@ -139,14 +139,14 @@ tfc.tooltip.large_vessel_unseal=큰 용기 개봉
 tfc.tooltip.goldpan.chunkworked=이영역은 혹사되었습니다. 아마 당신은 많이 찾을수없을것입니다.
 tfc.tooltip.smithing_skill=기술 보너스: %0.1f%%
 tfc.tooltip.crucible_alloy=포함 %1$d mB 의 %2$s
-tfc.tooltip.crucible_less_than_one=< 1 unit
+tfc.tooltip.crucible_less_than_one=< 1 유닛
 tfc.tooltip.previous_page=이전 페이지
 tfc.tooltip.next_page=다음 페이지
 tfc.tooltip.firepit_cooking_pot_empty=비움
 tfc.tooltip.firepit_cooking_pot_waiting=재료 추가
 tfc.tooltip.firepit_cooking_pot_boiling=끓어오름
 tfc.tooltip.firepit_cooking_pot_servings=한끼분량: %d
-tfc.tooltip.fertilized=비료
+tfc.tooltip.fertilized=수정됨
 tfc.tooltip.egg_hatch=%d 일 후 부화함.
 tfc.tooltip.egg_hatch_today=오늘 부화합니다!
 
@@ -169,13 +169,13 @@ tfc.tooltip.animal.product.no_egg=이 %s 는 아직 알이 나오지 않는다.
 
 
 ## Prospecting Result Messages
-tfc.propick.found=녹았다
-tfc.propick.found_traces=발견된 흔적
-tfc.propick.found_small=작은 광맥을 찾았다
-tfc.propick.found_medium=중간크기의 광맥을 찾았다
-tfc.propick.found_large=큰 광맥을 찾았다
-tfc.propick.found_very_large=매우큰 광맥을 찾았다
-tfc.propick.found_nothing=관심이 없다.
+tfc.propick.found=무언가를 찾았다.
+tfc.propick.found_traces=광맥의 흔적을 찾았다.
+tfc.propick.found_small=작은 광맥을 찾았다.
+tfc.propick.found_medium=중간크기의 광맥을 찾았다.
+tfc.propick.found_large=큰 광맥을 찾았다.
+tfc.propick.found_very_large=매우큰 광맥을 찾았다.
+tfc.propick.found_nothing=아무것도 없다.
 
 ## Thatch Bed
 tfc.thatch_bed.spawnpoint=스폰 포인트 저장.
@@ -202,8 +202,8 @@ tfc.skill.agriculture=농업: %s
 tfc.skill.butchering=도살: %s
 
 tfc.enum.skilltier.novice=초심자
-tfc.enum.skilltier.adept=숙련된
-tfc.enum.skilltier.expert=전문가
+tfc.enum.skilltier.adept=실력자
+tfc.enum.skilltier.expert=고수
 tfc.enum.skilltier.master=마스터
 
 ## Keybindings
@@ -230,16 +230,16 @@ config.tfc.general.tooltip=TerraFirmaCraft 일반 모드 구성및 호환성
 
 
 ### Debug
-config.tfc.general.debug=Debug 설정
+config.tfc.general.debug=디버스 설정
 
 config.tfc.general.debug.enable=사용
 config.tfc.general.debug.enable.tooltip=추가 권능 활성화. 추가항목 툴팁활성화.
 
-config.tfc.general.debug.debugWorldGenDanger=월드젠 디버그 (DANGER)
-config.tfc.general.debug.debugWorldGenDanger.tooltip=월드젠 디버그 [DANGER] 당신의 세계가 영향받을것이다! 올바른 파일엔 쓰지마!
+config.tfc.general.debug.debugWorldGenDanger=월드 생성 디버그 (위험)
+config.tfc.general.debug.debugWorldGenDanger.tooltip=월드 생성 디버그 [위험]. 세계에 직접적인 영향을 줍니다. 야생에 사용하는 월드엔 사용하지 마세요.
 
-config.tfc.general.debug.debugWorldGenSafe=월드젠 디버그 (safe)
-config.tfc.general.debug.debugWorldGenSafe.tooltip=월드젠 디버그 [safe] 이것은 월드젠 동안 디버그를 출력하고 일부 이미지맵을 생성하며, 세계에 영향을 미치진 않습니다.
+config.tfc.general.debug.debugWorldGenSafe=월드 생성 디버그 (안전)
+config.tfc.general.debug.debugWorldGenSafe.tooltip=월드 셍상 디버그 [안전]. 이것은 월드젠 동안 디버그를 출력하고 일부 이미지맵을 생성하며, 세계에 영향을 미치진 않습니다.
 
 
 ### Overrides
@@ -265,85 +265,85 @@ config.tfc.general.overrides.enableTorchOverride=횃불 보수 사용
 config.tfc.general.overrides.enableTorchOverride.tooltip=다른모드와 충돌할경우 끄시오.
 
 config.tfc.general.overrides.torchTime=횃불 꺼지는 시간
-config.tfc.general.overrides.torchTime.tooltip=토치가 꺼지는데 드는 시간 (72000 = 1 in game hour = 50 seconds), 기본은 72 시간. 다음숫자로 설정할경우 토치는 영원히 불탐: -1 .
+config.tfc.general.overrides.torchTime.tooltip=횃불이 꺼지는데 드는 시간 (72000 = 1 인게임 시간 = 50 seconds), 기본은 72 시간. -1로 설정하면 횃불은 영원히 빛납니다.
 
-config.tfc.general.overrides.enableLavaWaterPlacesTFCBlocks=활성화 TFC 용암/물 섞임
+config.tfc.general.overrides.enableLavaWaterPlacesTFCBlocks=TFC 용암과 물 섞임 활성화
 config.tfc.general.overrides.enableLavaWaterPlacesTFCBlocks.tooltip=용암과 물로 만드는 조약돌을 TFC변형물로 대체함.
 
 config.tfc.general.overrides.forceTFCWorldType=기본 레벨 타입 설정
 config.tfc.general.overrides.forceTFCWorldType.tooltip=true 인 경우 TFC는 DedicatedServer 시작 중에`level-type` 설정을`tfc_classic`으로 강제 설정하거나 클라이언트의 기본 월드 유형으로 정의합니다.
 
 config.tfc.general.overrides.forceDefaultOreGenFile=강제로 기본 광석파일설정
-config.tfc.general.overrides.enableDefaultOreGenFileOverwrite.tooltip=true 인 경우 TFC는 기본 ore gen 파일을 대체합니다. Pack Makers : Ore Gen 파일이 기본값으로 재설정되지 않도록하려면이 기능을 비활성화하십시오.
+config.tfc.general.overrides.enableDefaultOreGenFileOverwrite.tooltip=true 인 경우 TFC는 기본 광물 생성 파일을 대체합니다. 모드팩 제작자 분들께 : Ore Gen 파일이 기본값으로 재설정되지 않도록하려면이 기능을 비활성화하십시오.
 
 config.tfc.general.overrides.removeVanillaRecipes=바닐라 레시피 제거
 config.tfc.general.overrides.removeVanillaRecipes.tooltip=Enable/Disable 바닐라 레시피를 활성화/비활성화합니다. False = 레시피가 그대로 남아있음.
 
 config.tfc.general.overrides.removeVanillaLoots=바닐라 전리품 제거
-config.tfc.general.overrides.removeVanillaLoots.tooltip=Enable/Disable 바닐라 전리품중 충돌하는 항목설정 TFC (ie: 감자). False = 항목이 그대로 남아있음.
+config.tfc.general.overrides.removeVanillaLoots.tooltip=Enable/Disable 바닐라 전리품중 충돌하는 항목설정 TFC (예: 감자). False = 항목이 그대로 남아있음.
 
 config.tfc.general.overrides.forceNoVanillaNaturalRegeneration=바닐라 자연 재생금지
-config.tfc.general.overrides.forceNoVanillaNaturalRegeneration.tooltip=true이면 게임 규칙 naturalRegeneration이 false가됩니다. 참고 : 이것은 TFC의 자연 재생에 영향을 미치지 않습니다. naturalRegeneration을 true로 설정하면 TFC 재생과 일반 바닐라 재생이 훨씬 빠릅니다.
+config.tfc.general.overrides.forceNoVanillaNaturalRegeneration.tooltip=true이면 게임 규칙 naturalRegeneration이 false가됩니다. 참고 : 이것은 TFC의 자연 재생에 영향을 미치지 않습니다. naturalRegeneration을 true로 설정하면 TFC자체 체력 재생과 바닐라의 체력 재생이 같이 사용이 됩니다.
 
 config.tfc.general.overrides.forceReplaceVanillaAnimals=바닐라 동물로 강제교체
-config.tfc.general.overrides.forceReplaceVanillaAnimals.tooltip=참이면, 스폰 환경 (예 : 폭도 생성기 등)에서 바닐라 동물을 TFC로 대체합니다.
+config.tfc.general.overrides.forceReplaceVanillaAnimals.tooltip=참이면, 스폰 환경 (예 : 몹 스포너 등)에서 바닐라 동물을 TFC로 대체합니다.
 
 
 ### Fallable
-config.tfc.general.fallable=오류적 설정
-config.tfc.general.fallable.tooltip=오류 블록 구성.
+config.tfc.general.fallable=떨어지는 블럭
+config.tfc.general.fallable.tooltip=떨어지는 블록 구성.
 
-config.tfc.general.fallable.enable=오류 블록 활성화
-config.tfc.general.fallable.enable.tooltip=If false, fallable blocks (ie: dirt, stone) will never fall.
+config.tfc.general.fallable.enable=떨어지는 블럭 설정
+config.tfc.general.fallable.enable.tooltip=비활성화 해놓으면 떨어지는 블럭 (예: 흙, 돌)들은 떨어지지 않습니다.
 
 config.tfc.general.fallable.destroyOres=떨어지는 블록이 광석파괴
-config.tfc.general.fallable.destroyOres.tooltip=If false, fallable blocks (ie: dirt, stone) will never destroy ore blocks.
+config.tfc.general.fallable.destroyOres.tooltip=비활성화 해놓으면 떨어지는 블럭 (예: 흙, 돌)들은 광석을 부수지 않습니다.
 
 config.tfc.general.fallable.destroyItems=떨어지는 블록이 아이템 파괴
-config.tfc.general.fallable.destroyItems.tooltip=If false, fallable blocks (ie: dirt, stone) will never destroy loose items.
+config.tfc.general.fallable.destroyItems.tooltip=비활성화 해놓으면 떨어지는 블럭 (예: 흙, 돌)들은 아이템을 없애지 않습니다.
 
 config.tfc.general.fallable.hurtEntities=떨어지는 블록이 엔티티 해침
-config.tfc.general.fallable.hurtEntities.tooltip=If false, fallable blocks (ie: dirt, stone) will never hurt entities.
+config.tfc.general.fallable.hurtEntities.tooltip=비활성화 해놓으면 떨어지는 블럭 (예: 흙, 돌)들은 엔티티에게 데미지를 입히지 않습니다.
 
 config.tfc.general.fallable.collapseChance=바위 붕괴 확률
-config.tfc.general.fallable.collapseChance.tooltip=채굴시 바위가 붕괴할수 있다.
+config.tfc.general.fallable.collapseChance.tooltip=블럭을 캘때 무너질 확률입니다.
 
 config.tfc.general.fallable.propagateCollapseChance=붕괴전파 확률
 config.tfc.general.fallable.propagateCollapseChance.tooltip=붕괴 블록이 붕괴를 전파 할 확률. 붕괴 진원지로부터의 거리에 영향을받습니다.
 
-config.tfc.general.fallable.chiselCausesCollapse=끌이 무너지는 원인
-config.tfc.general.fallable.chiselCausesCollapse.tooltip=끌로 가공한 생석 덩어리가 붕괴를 야기해야 하는가?
+config.tfc.general.fallable.chiselCausesCollapse=조각에 의한 붕괴
+config.tfc.general.fallable.chiselCausesCollapse.tooltip=비활성화 해놓으면 조각에 의해 동굴이 무너지지 않습니다.
 
 config.tfc.general.fallable.explosionCausesCollapse=폭발로 인한 붕괴
-config.tfc.general.fallable.explosionCausesCollapse.tooltip=원석 블록이 폭발하면 붕괴가 일어날까?
+config.tfc.general.fallable.explosionCausesCollapse.tooltip=비활성화 해놓으면 폭발에 의해 동굴이 무너지지 않습니다.
 
 ### Difficulty
 config.tfc.general.difficulty=난이도 설정
 
-config.tfc.general.difficulty.animalSpawnCount=동물 스폰 카운터
-config.tfc.general.difficulty.animalSpawnCount.tooltip=이것은 얼마나 많은 동물 (모든 종류) 이로 드 (발동) / 플레이어를 제어합니다. 값이 높을수록 플레이어 근처에서 더 많은 동물이 생겨 난이도와 육류가 풍부 해집니다 (주의, 너무 높은 값은 성능에 부정적인 영향을 줄 수 있습니다).
+config.tfc.general.difficulty.animalSpawnCount=최대 동물 소환 횟수
+config.tfc.general.difficulty.animalSpawnCount.tooltip=플레이어 1명당 얼마나 많은 동물을 생성할지 설정할 수 있습니다. 너무 높게 설정하면 컴퓨터에 안좋은 영향을 줄 수 있습니다.
 
 config.tfc.general.difficulty.mobSpawnCount=몹 스폰 카운터
-config.tfc.general.difficulty.mobSpawnCount.tooltip=이것은 얼마나 많은 몹이로드 (스폰) / 플레이어되는지를 제어합니다. 값이 높을수록 플레이어 근처에서 더 많은 몹이 발생하므로 어려움이 발생합니다 (주의 : 값이 너무 높으면 성능에 부정적인 영향을 줄 수 있음).
+config.tfc.general.difficulty.mobSpawnCount.tooltip=플레이어 1명당 얼마나 많은 적들을 생성할지 설정할 수 있습니다. 너무 높게 설정하면 컴퓨터에 안좋은 영향을 줄 수 있습니다.
 
-config.tfc.general.difficulty.preventMobsOnSurface=표면에 몹 방지
-config.tfc.general.difficulty.preventMobsOnSurface.tooltip=표면에 몹이 생성되지 않습니까?
+config.tfc.general.difficulty.preventMobsOnSurface=지상에 몹 스폰 방지
+config.tfc.general.difficulty.preventMobsOnSurface.tooltip=설정해놓으면 더이상 지상에 몹이 자연 스폰되지 않습니다.
 
 config.tfc.general.difficulty.giveVanillaMobsEquipment=바닐라 몹 장비 제공
-config.tfc.general.difficulty.giveVanillaMobsEquipment.tooltip=바닐라 몹에게 단철 무기와 갑옷을 제공합니까?
+config.tfc.general.difficulty.giveVanillaMobsEquipment.tooltip=설정해놓으면 바닐라 몹 (좀비, 스켈레톤 등)에게 연철장비를 지급합니다.
 
 ### Trees
-config.tfc.general.tree=나무 세팅
-config.tfc.general.tree.tooltip=Enable / Disable TerraFirmaCraft Tree Mechanics
+config.tfc.general.tree=나무 설정
+config.tfc.general.tree.tooltip=테라퍼마의 나무로직을 활성화/비활성화합니다.
 
 config.tfc.general.tree.enableFelling=벌목 사용
-config.tfc.general.tree.enableFelling.tooltip=나무를 축으로 완전히 자릅니다. 다른 모드가 트리 벌채를 처리하도록하려면 사용하지 마십시오.
+config.tfc.general.tree.enableFelling.tooltip=나무를 도끼로 완전히 벱니다. 다른 모드 (예: 찹트리)를 사용할땐 끄셔도 됩니다.
 
-config.tfc.general.tree.enableHammerSticks=스틱 해머 활성화
-config.tfc.general.tree.enableHammerSticks.tooltip=망치로 막대기를 깍아서 다듬을 수 있습니다.
+config.tfc.general.tree.enableHammerSticks=망치로 막대기 얻기
+config.tfc.general.tree.enableHammerSticks.tooltip=설정해놓으면 원목을 망치로 두들겨서 막대기를 얻을 수 있습니다.
 
 config.tfc.general.tree.requiresAxe=도끼 필요
-config.tfc.general.tree.requiresAxe.tooltip=통나무는 공구 (축과 톱, 또는 스틱 용 망치)를 절단해야합니까? False이면 빈 손으로 로그를 삭제해도 로그가 삭제되지 않습니다.
+config.tfc.general.tree.requiresAxe.tooltip=설정해놓으면 더 이상 맨손으로 원목을 부술 수 없습니다. 오직 도끼로만 부술 수 있어요.
 
 config.tfc.general.tree.enableSaplings=묘목 사용
 config.tfc.general.tree.enableSaplings.tooltip=만약 false 라면, 잎이 묘목을 떨어 뜨리지 않습니다.
@@ -351,40 +351,40 @@ config.tfc.general.tree.enableSaplings.tooltip=만약 false 라면, 잎이 묘�
 config.tfc.general.tree.stoneAxeReturnRate=석재 도끼 로그 변환 속도
 config.tfc.general.tree.stoneAxeReturnRate.tooltip=돌 도끼를 사용할 때 아이템이 떨어질 때마다 로그 확률.
 
-config.tfc.general.tree.leafStickDropChance=잎이 스틱드롭할 확률
-config.tfc.general.tree.leafStickDropChance.tooltip=스틱의 일반 낙하 확률
+config.tfc.general.tree.leafStickDropChance=잎이 막대기를 떨어뜨릴 확률
+config.tfc.general.tree.leafStickDropChance.tooltip=막대기의 드랍률을 설정합니다.
 
-config.tfc.general.tree.leafStickDropChanceBonus=보너스 잎에서 스틱 드랍 확률
-config.tfc.general.tree.leafStickDropChanceBonus.tooltip=구성된 공구 등급으로 수확 할 때 잎이 더 많은 스틱을 떨어 뜨립니다.
+config.tfc.general.tree.leafStickDropChanceBonus=잎에서 막대기 추가적인 드랍 확률
+config.tfc.general.tree.leafStickDropChanceBonus.tooltip=구성된 공구 등급으로 수확 할 때 잎이 더 많은 막대기를 떨어 뜨립니다.
 
-config.tfc.general.tree.leafStickDropChanceBonusClasses=도구 클래스에따른 잎의 스틱드롭확률
-config.tfc.general.tree.leafStickDropChanceBonusClasses.tooltip=잎을 수확 할 때 더 많은 스틱을 떨어 뜨리도록 보너스를 구성한 도구 클래스.
+config.tfc.general.tree.leafStickDropChanceBonusClasses=도구등급에 따른 잎의 막대기드랍률
+config.tfc.general.tree.leafStickDropChanceBonusClasses.tooltip=도구의 등급에 따라 막대기의 드랍률이 증가합니다.
 
 
 ### Spawn Protection
 config.tfc.general.spawn_protection=스폰 방지 설정
 
-config.tfc.general.spawn_protection.preventMobs=적대적인 폭도 예방
-config.tfc.general.spawn_protection.preventMobs.tooltip=덩어리에 살면서 시간이 지남에 따라 적대적인 몹이 생성되는 것을 막아야합니까?
+config.tfc.general.spawn_protection.preventMobs=적대적인 엔티티 예방
+config.tfc.general.spawn_protection.preventMobs.tooltip=한 청크에 오래 살면서 적대적인 몹의 스폰을 막습니다.
 
-config.tfc.general.spawn_protection.preventPredators=포식자 방지
-config.tfc.general.spawn_protection.preventPredators.tooltip=덩어리에 살면서 포식자가 시간이 지남에 따라 산란을 막아야합니까?
+config.tfc.general.spawn_protection.preventPredators=맹수 방지
+config.tfc.general.spawn_protection.preventPredators.tooltip=한 청크에 오래 살면 맹수의 스폰을 막습니다.
 
 config.tfc.general.spawn_protection.minYMobs=몹의 최소 Y 레벨
-config.tfc.general.spawn_protection.minYMobs.tooltip=스폰을 막기 위해 스폰되는 최소 Y 값이 있어야합니다. 그 아래의 것은 막을 수 없습니다.
+config.tfc.general.spawn_protection.minYMobs.tooltip=몹이 소환되지않는 최소값입니다. 그 이하는 막을 수 없습니다.
 
 config.tfc.general.spawn_protection.maxYMobs=몹의 최대 Y 레벨
-config.tfc.general.spawn_protection.maxYMobs.tooltip=스폰을 막기 위해 스폰을 막기 위해 스폰되는 최대 Y 값입니다. 그 이상은 막을 수 없습니다.
+config.tfc.general.spawn_protection.maxYMobs.tooltip=몹이 소환되지않는 최대값입니다. 그 이상은 막을 수 없습니다.
 
-config.tfc.general.spawn_protection.minYPredators=포식자에 대한 최소 Y 수준
-config.tfc.general.spawn_protection.minYPredators.tooltip=The min Y value a spawn has to be for spawn protection to prevent predators. Anything below it will not be prevented.
+config.tfc.general.spawn_protection.minYPredators=맹수의 최소 Y 수준
+config.tfc.general.spawn_protection.minYPredators.tooltip=맹수가 소환되지않는 최소값입니다. 그 이하는 막을 수 없습니다.
 
-config.tfc.general.spawn_protection.maxYPredators=포식자에 대한 최대 Y 레벨
-config.tfc.general.spawn_protection.maxYPredators.tooltip=The max Y value a spawn has to be for spawn protection to prevent predators. Anything above it will not be prevented.
+config.tfc.general.spawn_protection.maxYPredators=맹수의 최대 Y 레벨
+config.tfc.general.spawn_protection.maxYPredators.tooltip=맹수가 소환되지않는 최대값입니다. 그 이상은 막을 수 없습니다.
 
 
 ### Damage
-config.tfc.general.damage=Damage Type Settings
+config.tfc.general.damage=공격 타입 설정
 
 config.tfc.general.damage.slashingSources=베기 데미지 소스
 config.tfc.general.damage.slashingSources.tooltip=기본적으로 베기 데미지가 적용되는 데미지 소스 유형.
@@ -396,13 +396,13 @@ config.tfc.general.damage.crushingSources=둔기 데미지 소스
 config.tfc.general.damage.crushingSources.tooltip=기본적으로 둔기 손상으로 설정되는 손상 소스 유형.
 
 config.tfc.general.damage.slashingEntities=베기 데미지 엔티티
-config.tfc.general.damage.slashingEntities.tooltip=기본적으로 베기 대미지가되는 대미지 소스 엔티티.
+config.tfc.general.damage.slashingEntities.tooltip=베기 데미지를 입는 엔티티설정
 
 config.tfc.general.damage.piercingEntities=관통 데미지 엔티티
-config.tfc.general.damage.piercingEntities.tooltip=Damage Source Entities that will default to Piercing damage.
+config.tfc.general.damage.piercingEntities.tooltip=관통 데미지를 입는 엔티티설정
 
 config.tfc.general.damage.crushingEntities=둔기 데미지 엔티티
-config.tfc.general.damage.crushingEntities.tooltip=Damage Source Entities that will default to Crushing damage.
+config.tfc.general.damage.crushingEntities.tooltip=둔기 데미지를 입는 엔티티설정
 
 
 ### Player
@@ -418,7 +418,7 @@ config.tfc.general.player.maxHealthModifier=플레이어 최대 체력 모딩
 config.tfc.general.player.maxHealthModifier.tooltip=영양 균형으로 최대 체력이 됩니다. 예시 1(Vanilla): 20 * 3(mod) = 60 (or 30 hearts). Example 2(TFC): 1000 * 3(mod) = 3000.
 
 config.tfc.general.player.thirstModifier=플레이어 갈증 속도
-config.tfc.general.player.thirstModifier.tooltip=굶주림이 사라졌을때 얼마나 목이 마르나? 100 = full thirst bar.
+config.tfc.general.player.thirstModifier.tooltip=배고플때 더 빠르게 갈증이 찾아옵니다.
 
 config.tfc.general.player.naturalRegenerationModifier=플레이어 자연 회복 속도
 config.tfc.general.player.naturalRegenerationModifier.tooltip=플레이어가 자연적으로 건강을 얼마나 빨리 재생성하는지에 대한 수정 자. 굶주림과 갈증이 가득 차면 1.0 = 3HP / 5 초입니다.
@@ -435,7 +435,7 @@ config.tfc.general.player.nutritionRotationHungerWindow.tooltip=플레이어의 
 config.tfc.general.player.drinkDelay=마시기 속도
 config.tfc.general.player.drinkDelay.tooltip=손으로 마시는 속도(in ticks)
 
-config.tfc.general.player.chanceThirstOnSaltyDrink=짠물에대한 갈증 기회
+config.tfc.general.player.chanceThirstOnSaltyDrink=짠물에대한 갈증 확률
 config.tfc.general.player.chanceThirstOnSaltyDrink.tooltip=짠물이 갈증을 일으킬 확률.
 
 config.tfc.general.player.quiverSearch=화살 수색 위치
@@ -667,10 +667,10 @@ config.tfc.devices.fire_pit.rainTicks.tooltip=불 덩어리가 비가 올 때 �
 
 
 ### Pit Kiln
-config.tfc.devices.pit_kiln=Pit Kiln
+config.tfc.devices.pit_kiln=구덩이 가마
 
-config.tfc.devices.pit_kiln.ticks=Ticks
-config.tfc.devices.pit_kiln.ticks.tooltip=Number of ticks required for a pit kiln to burn out. (1000 = 1 in game hour = 50 seconds), default is 8 hours.
+config.tfc.devices.pit_kiln.ticks=틱
+config.tfc.devices.pit_kiln.ticks.tooltip=구덩이 가마가 타는 시간을 설정합니다. (1000 = 1 인게임 시간 = 50 seconds), 기본은 8시간입니다..
 
 
 ### Lamp
@@ -846,7 +846,7 @@ config.tfc.animals.acceptRotten.tooltip=이 동물은 썩은 음식을 먹습니
 
 
 # Misc
-itemGroup.tfc.misc=TFC 음악
+itemGroup.tfc.misc=TFC 기타
 itemGroup.tfc.rock.blocks=TFC 돌 & 흙블럭
 itemGroup.tfc.rock.items=TFC 돌 아이템
 itemGroup.tfc.wood=TFC 나무
@@ -880,11 +880,11 @@ tfc.types.metal.copper=구리
 tfc.types.metal.gold=금
 tfc.types.metal.lead=납
 tfc.types.metal.nickel=니켈
-tfc.types.metal.rose_gold=장미 금
+tfc.types.metal.rose_gold=장미금
 tfc.types.metal.silver=은
 tfc.types.metal.tin=주석
 tfc.types.metal.zinc=아연
-tfc.types.metal.sterling_silver=스텅 은
+tfc.types.metal.sterling_silver=스털링실버
 tfc.types.metal.wrought_iron=연철
 tfc.types.metal.pig_iron=일반철
 tfc.types.metal.steel=강철
@@ -909,13 +909,13 @@ tfc.types.rock_category.igneous_extrusive=압축식화성암
 
 ## Tier
 
-tfc.enum.tier.tier_0=Tier 0
-tfc.enum.tier.tier_i=Tier I
-tfc.enum.tier.tier_ii=Tier II
-tfc.enum.tier.tier_iii=Tier III
-tfc.enum.tier.tier_iv=Tier IV
-tfc.enum.tier.tier_v=Tier V
-tfc.enum.tier.tier_vi=Tier VI
+tfc.enum.tier.tier_0=0 티어
+tfc.enum.tier.tier_i=I 티어
+tfc.enum.tier.tier_ii=II 티어
+tfc.enum.tier.tier_iii=III 티어
+tfc.enum.tier.tier_iv=IV 티어
+tfc.enum.tier.tier_v=V 티어
+tfc.enum.tier.tier_vi=VI 티어
 
 ## Size
 tfc.enum.size.tiny=조각
@@ -990,18 +990,18 @@ tfc.enum.forgerule.shrink_second_last=Shrink Second Last
 tfc.enum.forgerule.shrink_third_last=Shrink Third Last
 
 
-tfc.enum.season.january=겨울
+tfc.enum.season.january=한겨울
 tfc.enum.season.february=늦겨울
-tfc.enum.season.march=이른 봄
+tfc.enum.season.march=초봄
 tfc.enum.season.april=봄
 tfc.enum.season.may=늦봄
-tfc.enum.season.june=이른 여름
-tfc.enum.season.july=여름
+tfc.enum.season.june=초여름
+tfc.enum.season.july=한여름
 tfc.enum.season.august=늦여름
-tfc.enum.season.september=이른 가을
-tfc.enum.season.october=가을
+tfc.enum.season.september=초가을
+tfc.enum.season.october=한가을
 tfc.enum.season.november=늦가을
-tfc.enum.season.december=이른 겨울
+tfc.enum.season.december=초겨울
 
 tfc.enum.month.january=1월
 tfc.enum.month.february=2월
@@ -1079,8 +1079,8 @@ fluid.hot_water=온천수
 fluid.rum=럼주
 fluid.beer=맥주
 fluid.whiskey=위스키
-fluid.rye_whiskey=붉은 위스키
-fluid.corn_whiskey=콘 위스키
+fluid.rye_whiskey=호밀 위스키
+fluid.corn_whiskey=옥수수 위스키
 fluid.sake=일본주
 fluid.vodka=보드카
 fluid.cider=사이다
@@ -1102,11 +1102,11 @@ fluid.copper=녹은 구리
 fluid.gold=녹은 금
 fluid.lead=녹은 납
 fluid.nickel=녹은 니켈
-fluid.rose_gold=녹은 장미 금
+fluid.rose_gold=녹은 장미금
 fluid.silver=녹은 은
 fluid.tin=녹은 주석
 fluid.zinc=녹은 아연
-fluid.sterling_silver=녹은 스텅 은
+fluid.sterling_silver=녹은 스털링실버
 fluid.wrought_iron=녹은 연철
 fluid.pig_iron=녹은 철
 fluid.steel=녹은 강철
@@ -1164,7 +1164,7 @@ vein.saltpeter.name=초석
 vein.sylvite.name=암염
 vein.borax.name=붕사
 vein.gypsum.name=석고
-vein.lapis_lazuli.name=라피스 라줄리
+vein.lapis_lazuli.name=청금석
 vein.surface_native_copper.name=표층 자연 구리
 vein.surface_cassiterite.name=표층 주석석
 vein.surface_bismuthinite.name=표층 휘창연석
@@ -1757,7 +1757,7 @@ tile.tfc.ore.serpentine.granite.name=화강암 사문석
 tile.tfc.ore.sylvite.granite.name=화강암 암염
 tile.tfc.ore.borax.granite.name=화강암 붕사
 tile.tfc.ore.olivine.granite.name=화강암 감람석
-tile.tfc.ore.lapis_lazuli.granite.name=화강암 라피스 라줄리
+tile.tfc.ore.lapis_lazuli.granite.name=화강암 청금석
 tile.tfc.ore.native_copper.diorite.name=섬록암 자연 구리
 tile.tfc.ore.native_gold.diorite.name=섬록암 자연 금
 tile.tfc.ore.native_platinum.diorite.name=섬록암 자연 백금
@@ -1792,7 +1792,7 @@ tile.tfc.ore.serpentine.diorite.name=섬록암 사문석
 tile.tfc.ore.sylvite.diorite.name=섬록암 암염
 tile.tfc.ore.borax.diorite.name=섬록암 붕사
 tile.tfc.ore.olivine.diorite.name=섬록암 감람석
-tile.tfc.ore.lapis_lazuli.diorite.name=섬록암 라피스 라줄리
+tile.tfc.ore.lapis_lazuli.diorite.name=섬록암 청금석
 tile.tfc.ore.native_copper.gabbro.name=반려암 자연 구리
 tile.tfc.ore.native_gold.gabbro.name=반려암 자연 금
 tile.tfc.ore.native_platinum.gabbro.name=반려암 자연 백금
@@ -1827,7 +1827,7 @@ tile.tfc.ore.serpentine.gabbro.name=반려암 사문석
 tile.tfc.ore.sylvite.gabbro.name=반려암 암염
 tile.tfc.ore.borax.gabbro.name=반려암 붕사
 tile.tfc.ore.olivine.gabbro.name=반려암 감람석
-tile.tfc.ore.lapis_lazuli.gabbro.name=반려암 라피스 라줄리
+tile.tfc.ore.lapis_lazuli.gabbro.name=반려암 청금석
 tile.tfc.ore.native_copper.shale.name=혈암 자연 구리
 tile.tfc.ore.native_gold.shale.name=혈암 자연 금
 tile.tfc.ore.native_platinum.shale.name=혈암 자연 백금
@@ -1862,7 +1862,7 @@ tile.tfc.ore.serpentine.shale.name=혈암 사문석
 tile.tfc.ore.sylvite.shale.name=혈암 암염
 tile.tfc.ore.borax.shale.name=혈암 붕사
 tile.tfc.ore.olivine.shale.name=혈암 감람석
-tile.tfc.ore.lapis_lazuli.shale.name=혈암 라피스 라줄리
+tile.tfc.ore.lapis_lazuli.shale.name=혈암 청금석
 tile.tfc.ore.native_copper.claystone.name=점토암 자연 구리
 tile.tfc.ore.native_gold.claystone.name=점토암 자연 금
 tile.tfc.ore.native_platinum.claystone.name=점토암 자연 백금
@@ -1897,7 +1897,7 @@ tile.tfc.ore.serpentine.claystone.name=점토암 사문석
 tile.tfc.ore.sylvite.claystone.name=점토암 암염
 tile.tfc.ore.borax.claystone.name=점토암 붕사
 tile.tfc.ore.olivine.claystone.name=점토암 감람석
-tile.tfc.ore.lapis_lazuli.claystone.name=점토암 라피스 라줄리
+tile.tfc.ore.lapis_lazuli.claystone.name=점토암 청금석
 tile.tfc.ore.native_copper.rocksalt.name=암염 자연 구리
 tile.tfc.ore.native_gold.rocksalt.name=암염 자연 금
 tile.tfc.ore.native_platinum.rocksalt.name=암염 자연 백금
@@ -1932,7 +1932,7 @@ tile.tfc.ore.serpentine.rocksalt.name=암염 사문석
 tile.tfc.ore.sylvite.rocksalt.name=암염 암염
 tile.tfc.ore.borax.rocksalt.name=암염 붕사
 tile.tfc.ore.olivine.rocksalt.name=암염 감람석
-tile.tfc.ore.lapis_lazuli.rocksalt.name=암염 라피스 라줄리
+tile.tfc.ore.lapis_lazuli.rocksalt.name=암염 청금석
 tile.tfc.ore.native_copper.limestone.name=석회석 자연 구리
 tile.tfc.ore.native_gold.limestone.name=석회석 자연 금
 tile.tfc.ore.native_platinum.limestone.name=석회석 자연 백금
@@ -1967,7 +1967,7 @@ tile.tfc.ore.serpentine.limestone.name=석회석 사문석
 tile.tfc.ore.sylvite.limestone.name=석회석 암염
 tile.tfc.ore.borax.limestone.name=석회석 붕사
 tile.tfc.ore.olivine.limestone.name=석회석 감람석
-tile.tfc.ore.lapis_lazuli.limestone.name=석회석 라피스 라줄리
+tile.tfc.ore.lapis_lazuli.limestone.name=석회석 청금석
 tile.tfc.ore.native_copper.conglomerate.name=역암 자연 구리
 tile.tfc.ore.native_gold.conglomerate.name=역암 자연 금
 tile.tfc.ore.native_platinum.conglomerate.name=역암 자연 백금
@@ -2002,7 +2002,7 @@ tile.tfc.ore.serpentine.conglomerate.name=역암 사문석
 tile.tfc.ore.sylvite.conglomerate.name=역암 암염
 tile.tfc.ore.borax.conglomerate.name=역암 붕사
 tile.tfc.ore.olivine.conglomerate.name=역암 감람석
-tile.tfc.ore.lapis_lazuli.conglomerate.name=역암 라피스 라줄리
+tile.tfc.ore.lapis_lazuli.conglomerate.name=역암 청금석
 tile.tfc.ore.native_copper.dolomite.name=백운석 자연 구리
 tile.tfc.ore.native_gold.dolomite.name=백운석 자연 금
 tile.tfc.ore.native_platinum.dolomite.name=백운석 자연 백금
@@ -2037,7 +2037,7 @@ tile.tfc.ore.serpentine.dolomite.name=백운석 사문석
 tile.tfc.ore.sylvite.dolomite.name=백운석 암염
 tile.tfc.ore.borax.dolomite.name=백운석 붕사
 tile.tfc.ore.olivine.dolomite.name=백운석 감람석
-tile.tfc.ore.lapis_lazuli.dolomite.name=백운석 라피스 라줄리
+tile.tfc.ore.lapis_lazuli.dolomite.name=백운석 청금석
 tile.tfc.ore.native_copper.chert.name=규질암 자연 구리
 tile.tfc.ore.native_gold.chert.name=규질암 자연 금
 tile.tfc.ore.native_platinum.chert.name=규질암 자연 백금
@@ -2072,7 +2072,7 @@ tile.tfc.ore.serpentine.chert.name=규질암 사문석
 tile.tfc.ore.sylvite.chert.name=규질암 암염
 tile.tfc.ore.borax.chert.name=규질암 붕사
 tile.tfc.ore.olivine.chert.name=규질암 감람석
-tile.tfc.ore.lapis_lazuli.chert.name=규질암 라피스 라줄리
+tile.tfc.ore.lapis_lazuli.chert.name=규질암 청금석
 tile.tfc.ore.native_copper.chalk.name=백암 자연 구리
 tile.tfc.ore.native_gold.chalk.name=백암 자연 금
 tile.tfc.ore.native_platinum.chalk.name=백암 자연 백금
@@ -2107,7 +2107,7 @@ tile.tfc.ore.serpentine.chalk.name=백암 사문석
 tile.tfc.ore.sylvite.chalk.name=백암 암염
 tile.tfc.ore.borax.chalk.name=백암 붕사
 tile.tfc.ore.olivine.chalk.name=백암 감람석
-tile.tfc.ore.lapis_lazuli.chalk.name=백암 라피스 라줄리
+tile.tfc.ore.lapis_lazuli.chalk.name=백암 청금석
 tile.tfc.ore.native_copper.rhyolite.name=유문암 자연 구리
 tile.tfc.ore.native_gold.rhyolite.name=유문암 자연 금
 tile.tfc.ore.native_platinum.rhyolite.name=유문암 자연 백금
@@ -2142,7 +2142,7 @@ tile.tfc.ore.serpentine.rhyolite.name=유문암 사문석
 tile.tfc.ore.sylvite.rhyolite.name=유문암 암염
 tile.tfc.ore.borax.rhyolite.name=유문암 붕사
 tile.tfc.ore.olivine.rhyolite.name=유문암 감람석
-tile.tfc.ore.lapis_lazuli.rhyolite.name=유문암 라피스 라줄리
+tile.tfc.ore.lapis_lazuli.rhyolite.name=유문암 청금석
 tile.tfc.ore.native_copper.basalt.name=현무암 자연 구리
 tile.tfc.ore.native_gold.basalt.name=현무암 자연 금
 tile.tfc.ore.native_platinum.basalt.name=현무암 자연 백금
@@ -2177,7 +2177,7 @@ tile.tfc.ore.serpentine.basalt.name=현무암 사문석
 tile.tfc.ore.sylvite.basalt.name=현무암 암염
 tile.tfc.ore.borax.basalt.name=현무암 붕사
 tile.tfc.ore.olivine.basalt.name=현무암 감람석
-tile.tfc.ore.lapis_lazuli.basalt.name=현무암 라피스 라줄리
+tile.tfc.ore.lapis_lazuli.basalt.name=현무암 청금석
 tile.tfc.ore.native_copper.andesite.name=안산암 자연 구리
 tile.tfc.ore.native_gold.andesite.name=안산암 자연 금
 tile.tfc.ore.native_platinum.andesite.name=안산암 자연 백금
@@ -2212,7 +2212,7 @@ tile.tfc.ore.serpentine.andesite.name=안산암 사문석
 tile.tfc.ore.sylvite.andesite.name=안산암 암염
 tile.tfc.ore.borax.andesite.name=안산암 붕사
 tile.tfc.ore.olivine.andesite.name=안산암 감람석
-tile.tfc.ore.lapis_lazuli.andesite.name=안산암 라피스 라줄리
+tile.tfc.ore.lapis_lazuli.andesite.name=안산암 청금석
 tile.tfc.ore.native_copper.dacite.name=석영 자연 구리
 tile.tfc.ore.native_gold.dacite.name=석영 자연 금
 tile.tfc.ore.native_platinum.dacite.name=석영 자연 백금
@@ -2247,7 +2247,7 @@ tile.tfc.ore.serpentine.dacite.name=석영 사문석
 tile.tfc.ore.sylvite.dacite.name=석영 암염
 tile.tfc.ore.borax.dacite.name=석영 붕사
 tile.tfc.ore.olivine.dacite.name=석영 감람석
-tile.tfc.ore.lapis_lazuli.dacite.name=석영 라피스 라줄리
+tile.tfc.ore.lapis_lazuli.dacite.name=석영 청금석
 tile.tfc.ore.native_copper.quartzite.name=규암 자연 구리
 tile.tfc.ore.native_gold.quartzite.name=규암 자연 금
 tile.tfc.ore.native_platinum.quartzite.name=규암 자연 백금
@@ -2282,7 +2282,7 @@ tile.tfc.ore.serpentine.quartzite.name=규암 사문석
 tile.tfc.ore.sylvite.quartzite.name=규암 암염
 tile.tfc.ore.borax.quartzite.name=규암 붕사
 tile.tfc.ore.olivine.quartzite.name=규암 감람석
-tile.tfc.ore.lapis_lazuli.quartzite.name=규암 라피스 라줄리
+tile.tfc.ore.lapis_lazuli.quartzite.name=규암 청금석
 tile.tfc.ore.native_copper.slate.name=점판암 자연 구리
 tile.tfc.ore.native_gold.slate.name=점판암 자연 금
 tile.tfc.ore.native_platinum.slate.name=점판암 자연 백금
@@ -2317,7 +2317,7 @@ tile.tfc.ore.serpentine.slate.name=점판암 사문석
 tile.tfc.ore.sylvite.slate.name=점판암 암염
 tile.tfc.ore.borax.slate.name=점판암 붕사
 tile.tfc.ore.olivine.slate.name=점판암 감람석
-tile.tfc.ore.lapis_lazuli.slate.name=점판암 라피스 라줄리
+tile.tfc.ore.lapis_lazuli.slate.name=점판암 청금석
 tile.tfc.ore.native_copper.phyllite.name=천매암 자연 구리
 tile.tfc.ore.native_gold.phyllite.name=천매암 자연 금
 tile.tfc.ore.native_platinum.phyllite.name=천매암 자연 백금
@@ -2352,7 +2352,7 @@ tile.tfc.ore.serpentine.phyllite.name=천매암 사문석
 tile.tfc.ore.sylvite.phyllite.name=천매암 암염
 tile.tfc.ore.borax.phyllite.name=천매암 붕사
 tile.tfc.ore.olivine.phyllite.name=천매암 감람석
-tile.tfc.ore.lapis_lazuli.phyllite.name=천매암 라피스 라줄리
+tile.tfc.ore.lapis_lazuli.phyllite.name=천매암 청금석
 tile.tfc.ore.native_copper.schist.name=편암 자연 구리
 tile.tfc.ore.native_gold.schist.name=편암 자연 금
 tile.tfc.ore.native_platinum.schist.name=편암 자연 백금
@@ -2387,7 +2387,7 @@ tile.tfc.ore.serpentine.schist.name=편암 사문석
 tile.tfc.ore.sylvite.schist.name=편암 암염
 tile.tfc.ore.borax.schist.name=편암 붕사
 tile.tfc.ore.olivine.schist.name=편암 감람석
-tile.tfc.ore.lapis_lazuli.schist.name=편암 라피스 라줄리
+tile.tfc.ore.lapis_lazuli.schist.name=편암 청금석
 tile.tfc.ore.native_copper.gneiss.name=편마암 자연 구리
 tile.tfc.ore.native_gold.gneiss.name=편마암 자연 금
 tile.tfc.ore.native_platinum.gneiss.name=편마암 자연 백금
@@ -2422,7 +2422,7 @@ tile.tfc.ore.serpentine.gneiss.name=편마암 사문석
 tile.tfc.ore.sylvite.gneiss.name=편마암 암염
 tile.tfc.ore.borax.gneiss.name=편마암 붕사
 tile.tfc.ore.olivine.gneiss.name=편마암 감람석
-tile.tfc.ore.lapis_lazuli.gneiss.name=편마암 라피스 라줄리
+tile.tfc.ore.lapis_lazuli.gneiss.name=편마암 청금석
 tile.tfc.ore.native_copper.marble.name=대리석 자연 구리
 tile.tfc.ore.native_gold.marble.name=대리석 자연 금
 tile.tfc.ore.native_platinum.marble.name=대리석 자연 백금
@@ -2457,7 +2457,7 @@ tile.tfc.ore.serpentine.marble.name=대리석 사문석
 tile.tfc.ore.sylvite.marble.name=대리석 암염
 tile.tfc.ore.borax.marble.name=대리석 붕사
 tile.tfc.ore.olivine.marble.name=대리석 감람석
-tile.tfc.ore.lapis_lazuli.marble.name=대리석 라피스 라줄리
+tile.tfc.ore.lapis_lazuli.marble.name=대리석 청금석
 
 tile.tfc.wood.log.ash.name=물푸레나무 통나무
 tile.tfc.wood.log.aspen.name=포풀러나무 통나무
@@ -2575,25 +2575,25 @@ tile.tfc.wood.chest.rosewood.name=로즈우드 상자
 tile.tfc.wood.chest.blackwood.name=블랙우드 상자
 tile.tfc.wood.chest.palm.name=야자나무 상자
 
-tile.tfc.wood.chest_trap.ash.name=물푸레나무 트랩상자
-tile.tfc.wood.chest_trap.aspen.name=포풀러나무 트랩상자
-tile.tfc.wood.chest_trap.birch.name=자작나무 트랩상자
-tile.tfc.wood.chest_trap.chestnut.name=밤나무 트랩상자
-tile.tfc.wood.chest_trap.douglas_fir.name=더글라스 전나무 트랩상자
-tile.tfc.wood.chest_trap.hickory.name=히코리나무 트랩상자
-tile.tfc.wood.chest_trap.maple.name=단풍나무 트랩상자
-tile.tfc.wood.chest_trap.oak.name=참나무 트랩상자
-tile.tfc.wood.chest_trap.pine.name=소나무 트랩상자
-tile.tfc.wood.chest_trap.sequoia.name=세쿼이아나무 트랩상자
-tile.tfc.wood.chest_trap.spruce.name=가문비나무 트랩상자
-tile.tfc.wood.chest_trap.sycamore.name=플라타너스나무 트랩상자
-tile.tfc.wood.chest_trap.white_cedar.name=멀구슬나무 트랩상자
-tile.tfc.wood.chest_trap.willow.name=버드나무 트랩상자
-tile.tfc.wood.chest_trap.kapok.name=케이폭나무 트랩상자
-tile.tfc.wood.chest_trap.acacia.name=아카시아나무 트랩상자
-tile.tfc.wood.chest_trap.rosewood.name=로즈우드 트랩상자
-tile.tfc.wood.chest_trap.blackwood.name=블랙우드 트랩상자
-tile.tfc.wood.chest_trap.palm.name=야자나무 트랩상자
+tile.tfc.wood.chest_trap.ash.name=물푸레나무 덫상자
+tile.tfc.wood.chest_trap.aspen.name=포풀러나무 덫상자
+tile.tfc.wood.chest_trap.birch.name=자작나무 덫상자
+tile.tfc.wood.chest_trap.chestnut.name=밤나무 덫상자
+tile.tfc.wood.chest_trap.douglas_fir.name=더글라스 전나무 덫상자
+tile.tfc.wood.chest_trap.hickory.name=히코리나무 덫상자
+tile.tfc.wood.chest_trap.maple.name=단풍나무 덫상자
+tile.tfc.wood.chest_trap.oak.name=참나무 덫상자
+tile.tfc.wood.chest_trap.pine.name=소나무 덫상자
+tile.tfc.wood.chest_trap.sequoia.name=세쿼이아나무 덫상자
+tile.tfc.wood.chest_trap.spruce.name=가문비나무 덫상자
+tile.tfc.wood.chest_trap.sycamore.name=플라타너스나무 덫상자
+tile.tfc.wood.chest_trap.white_cedar.name=멀구슬나무 덫상자
+tile.tfc.wood.chest_trap.willow.name=버드나무 덫상자
+tile.tfc.wood.chest_trap.kapok.name=케이폭나무 덫상자
+tile.tfc.wood.chest_trap.acacia.name=아카시아나무 덫상자
+tile.tfc.wood.chest_trap.rosewood.name=로즈우드 덫상자
+tile.tfc.wood.chest_trap.blackwood.name=블랙우드 덫상자
+tile.tfc.wood.chest_trap.palm.name=야자나무 덫상자
 
 tile.tfc.wood.workbench.ash.name=물푸레나무 작업대
 tile.tfc.wood.workbench.aspen.name=포풀러나무 작업대
@@ -2836,7 +2836,7 @@ tile.tfc.plants.duckweed.name=개구리밥
 tile.tfc.plants.field_horsetail.name=쇠뜨기
 tile.tfc.plants.fountain_grass.name=수크령
 tile.tfc.plants.foxglove.name=디기탈리스
-tile.tfc.plants.goldenrod.name=메역취
+tile.tfc.plants.goldenrod.name=미역취
 tile.tfc.plants.grape_hyacinth.name=무스카리
 tile.tfc.plants.gutweed.name=파래
 tile.tfc.plants.guzmania.name=별빛 브로멜리아드
@@ -2863,7 +2863,7 @@ tile.tfc.plants.rattan.name=등나무
 tile.tfc.plants.reindeer_lichen.name=순록이끼
 tile.tfc.plants.rose.name=장미
 tile.tfc.plants.rough_horsetail.name=속새
-tile.tfc.plants.ryegrass.name=보리
+tile.tfc.plants.ryegrass.name=쥐보리속
 tile.tfc.plants.sacred_datura.name=흰 독말풀
 tile.tfc.plants.sagebrush.name=산쑥
 tile.tfc.plants.sago.name=솔잎가래
@@ -3127,11 +3127,11 @@ tile.tfc.lamp.copper.name=구리 램프
 tile.tfc.lamp.gold.name=금 램프
 tile.tfc.lamp.lead.name=납 램프
 tile.tfc.lamp.nickel.name=니켈 램프
-tile.tfc.lamp.rose_gold.name=로즈금 램프
+tile.tfc.lamp.rose_gold.name=장미금 램프
 tile.tfc.lamp.silver.name=은 램프
 tile.tfc.lamp.tin.name=주석 램프
 tile.tfc.lamp.zinc.name=아연 램프
-tile.tfc.lamp.sterling_silver.name=스탱은 램프
+tile.tfc.lamp.sterling_silver.name=스털링실버 램프
 tile.tfc.lamp.wrought_iron.name=연철 램프
 tile.tfc.lamp.pig_iron.name=철 램프
 tile.tfc.lamp.steel.name=강철 램프
@@ -3149,11 +3149,11 @@ tile.tfc.lamp.copper.filled.name=%s 구리 램프
 tile.tfc.lamp.gold.filled.name=%s 금 램프
 tile.tfc.lamp.lead.filled.name=%s 납 램프
 tile.tfc.lamp.nickel.filled.name=%s 니켈 램프
-tile.tfc.lamp.rose_gold.filled.name=%s 로즈금 램프
+tile.tfc.lamp.rose_gold.filled.name=%s 장미금 램프
 tile.tfc.lamp.silver.filled.name=%s 은 램프
 tile.tfc.lamp.tin.filled.name=%s 주석 램프
 tile.tfc.lamp.zinc.filled.name=%s 아연 램프
-tile.tfc.lamp.sterling_silver.filled.name=%s 스탱은 램프
+tile.tfc.lamp.sterling_silver.filled.name=%s 스털링실버 램프
 tile.tfc.lamp.wrought_iron.filled.name=%s 연철 램프
 tile.tfc.lamp.pig_iron.filled.name=%s 철 램프
 tile.tfc.lamp.steel.filled.name=%s 강철 램프
@@ -3220,7 +3220,7 @@ item.tfc.ore.serpentine.name=사문석
 item.tfc.ore.sylvite.name=암염
 item.tfc.ore.borax.name=붕사
 item.tfc.ore.olivine.name=감람석
-item.tfc.ore.lapis_lazuli.name=라피스 라줄리
+item.tfc.ore.lapis_lazuli.name=청금석
 
 item.tfc.ore.native_copper.poor.name=빈약한 자연 구리
 item.tfc.ore.native_gold.poor.name=빈약한 자연 금
@@ -3256,7 +3256,7 @@ item.tfc.ore.serpentine.poor.name=빈약한 사문석
 item.tfc.ore.sylvite.poor.name=빈약한 암염
 item.tfc.ore.borax.poor.name=빈약한 붕사
 item.tfc.ore.olivine.poor.name=빈약한 감람석
-item.tfc.ore.lapis_lazuli.poor.name=빈약한 라피스 라줄리
+item.tfc.ore.lapis_lazuli.poor.name=빈약한 청금석
 
 item.tfc.ore.native_copper.rich.name=풍부한 자연 구리
 item.tfc.ore.native_gold.rich.name=풍부한 자연 금
@@ -3292,7 +3292,7 @@ item.tfc.ore.serpentine.rich.name=풍부한 사문석
 item.tfc.ore.sylvite.rich.name=풍부한 암염
 item.tfc.ore.borax.rich.name=풍부한 붕사
 item.tfc.ore.olivine.rich.name=풍부한 감람석
-item.tfc.ore.lapis_lazuli.rich.name=풍부한 라피스 라줄리
+item.tfc.ore.lapis_lazuli.rich.name=풍부한 청금석
 
 item.tfc.ore.small.native_copper.name=자연 구리 조각
 item.tfc.ore.small.native_gold.name=자연 금 조각
@@ -3328,13 +3328,13 @@ item.tfc.ore.small.serpentine.name=작은 사문석
 item.tfc.ore.small.sylvite.name=작은 암염
 item.tfc.ore.small.borax.name=작은 붕사
 item.tfc.ore.small.olivine.name=작은 감람석
-item.tfc.ore.small.lapis_lazuli.name=작은 라피스 라줄리
+item.tfc.ore.small.lapis_lazuli.name=작은 청금석
 
 item.tfc.rock.granite.name=화강암 돌맹이
 item.tfc.rock.diorite.name=섬록암 돌맹이
 item.tfc.rock.gabbro.name=반려암 돌맹이
 item.tfc.rock.shale.name=혈암 돌맹이
-item.tfc.rock.claystone.name=점토암Rock
+item.tfc.rock.claystone.name=점토암 돌맹이
 item.tfc.rock.rocksalt.name=암염 돌맹이
 item.tfc.rock.limestone.name=석회석 돌맹이
 item.tfc.rock.conglomerate.name=역암 돌맹이
@@ -3357,7 +3357,7 @@ item.tfc.brick.granite.name=화강암 벽돌
 item.tfc.brick.diorite.name=섬록암 벽돌
 item.tfc.brick.gabbro.name=반려암 벽돌
 item.tfc.brick.shale.name=혈암 벽돌
-item.tfc.brick.claystone.name=점토암Brick
+item.tfc.brick.claystone.name=점토암 벽돌
 item.tfc.brick.rocksalt.name=암염 벽돌
 item.tfc.brick.limestone.name=석회석 벽돌
 item.tfc.brick.conglomerate.name=역암 벽돌
@@ -3515,11 +3515,11 @@ item.tfc.metal.ingot.copper.name=구리괴
 item.tfc.metal.ingot.gold.name=금괴
 item.tfc.metal.ingot.lead.name=납괴
 item.tfc.metal.ingot.nickel.name=니켈괴
-item.tfc.metal.ingot.rose_gold.name=로즈금괴
+item.tfc.metal.ingot.rose_gold.name=장미금괴
 item.tfc.metal.ingot.silver.name=은괴
 item.tfc.metal.ingot.tin.name=주석괴
 item.tfc.metal.ingot.zinc.name=아연괴
-item.tfc.metal.ingot.sterling_silver.name=스탱은괴
+item.tfc.metal.ingot.sterling_silver.name=스털링실버괴
 item.tfc.metal.ingot.wrought_iron.name=연철괴
 item.tfc.metal.ingot.pig_iron.name=철괴
 item.tfc.metal.ingot.steel.name=강철괴
@@ -3536,11 +3536,11 @@ item.tfc.metal.double_ingot.copper.name=구리 합괴
 item.tfc.metal.double_ingot.gold.name=금 합괴
 item.tfc.metal.double_ingot.lead.name=납 합괴
 item.tfc.metal.double_ingot.nickel.name=니켈 합괴
-item.tfc.metal.double_ingot.rose_gold.name=로즈금 합괴
+item.tfc.metal.double_ingot.rose_gold.name=장미금 합괴
 item.tfc.metal.double_ingot.silver.name=은 합괴
 item.tfc.metal.double_ingot.tin.name=주석 합괴
 item.tfc.metal.double_ingot.zinc.name=아연 합괴
-item.tfc.metal.double_ingot.sterling_silver.name=스탱은 합괴
+item.tfc.metal.double_ingot.sterling_silver.name=스털링실버 합괴
 item.tfc.metal.double_ingot.wrought_iron.name=연철 합괴
 item.tfc.metal.double_ingot.pig_iron.name=철 합괴
 item.tfc.metal.double_ingot.steel.name=강철 합괴
@@ -3557,11 +3557,11 @@ item.tfc.metal.scrap.copper.name=구리 파편
 item.tfc.metal.scrap.gold.name=금 파편
 item.tfc.metal.scrap.lead.name=납 파편
 item.tfc.metal.scrap.nickel.name=니켈 파편
-item.tfc.metal.scrap.rose_gold.name=로즈금 파편
+item.tfc.metal.scrap.rose_gold.name=장미금 파편
 item.tfc.metal.scrap.silver.name=은 파편
 item.tfc.metal.scrap.tin.name=주석 파편
 item.tfc.metal.scrap.zinc.name=아연 파편
-item.tfc.metal.scrap.sterling_silver.name=스탱은 파편
+item.tfc.metal.scrap.sterling_silver.name=스털링실버 파편
 item.tfc.metal.scrap.wrought_iron.name=연철 파편
 item.tfc.metal.scrap.pig_iron.name=철 파편
 item.tfc.metal.scrap.steel.name=강철 파편
@@ -3578,11 +3578,11 @@ item.tfc.metal.dust.copper.name=구리 가루
 item.tfc.metal.dust.gold.name=금 가루
 item.tfc.metal.dust.lead.name=납 가루
 item.tfc.metal.dust.nickel.name=니켈 가루
-item.tfc.metal.dust.rose_gold.name=로즈금 가루
+item.tfc.metal.dust.rose_gold.name=장미금 가루
 item.tfc.metal.dust.silver.name=은 가루
 item.tfc.metal.dust.tin.name=주석 가루
 item.tfc.metal.dust.zinc.name=아연 가루
-item.tfc.metal.dust.sterling_silver.name=스탱은 가루
+item.tfc.metal.dust.sterling_silver.name=스털링실버 가루
 item.tfc.metal.dust.wrought_iron.name=연철 가루
 item.tfc.metal.dust.pig_iron.name=철 가루
 item.tfc.metal.dust.steel.name=강철 가루
@@ -3599,11 +3599,11 @@ item.tfc.metal.nugget.copper.name=구리 조각
 item.tfc.metal.nugget.gold.name=금 조각
 item.tfc.metal.nugget.lead.name=납 조각
 item.tfc.metal.nugget.nickel.name=니켈 조각
-item.tfc.metal.nugget.rose_gold.name=로즈금 조각
+item.tfc.metal.nugget.rose_gold.name=장미금 조각
 item.tfc.metal.nugget.silver.name=은 조각
 item.tfc.metal.nugget.tin.name=주석 조각
 item.tfc.metal.nugget.zinc.name=아연 조각
-item.tfc.metal.nugget.sterling_silver.name=스탱은 조각
+item.tfc.metal.nugget.sterling_silver.name=스털링실버 조각
 item.tfc.metal.nugget.wrought_iron.name=연철 조각
 item.tfc.metal.nugget.pig_iron.name=철 조각
 item.tfc.metal.nugget.steel.name=강철 조각
@@ -3620,11 +3620,11 @@ item.tfc.metal.sheet.copper.name=구리판
 item.tfc.metal.sheet.gold.name=금판
 item.tfc.metal.sheet.lead.name=납판
 item.tfc.metal.sheet.nickel.name=니켈판
-item.tfc.metal.sheet.rose_gold.name=로즈금판
+item.tfc.metal.sheet.rose_gold.name=장미금판
 item.tfc.metal.sheet.silver.name=은판
 item.tfc.metal.sheet.tin.name=주석판
 item.tfc.metal.sheet.zinc.name=아연판
-item.tfc.metal.sheet.sterling_silver.name=스탱은판
+item.tfc.metal.sheet.sterling_silver.name=스털링실버판
 item.tfc.metal.sheet.wrought_iron.name=연철판
 item.tfc.metal.sheet.pig_iron.name=철판
 item.tfc.metal.sheet.steel.name=강철 판
@@ -3641,11 +3641,11 @@ item.tfc.metal.double_sheet.copper.name=구리 합판
 item.tfc.metal.double_sheet.gold.name=금 합판
 item.tfc.metal.double_sheet.lead.name=납 합판
 item.tfc.metal.double_sheet.nickel.name=니켈 합판
-item.tfc.metal.double_sheet.rose_gold.name=로즈금 합판
+item.tfc.metal.double_sheet.rose_gold.name=장미금 합판
 item.tfc.metal.double_sheet.silver.name=은 합판
 item.tfc.metal.double_sheet.tin.name=주석 합판
 item.tfc.metal.double_sheet.zinc.name=아연 합판
-item.tfc.metal.double_sheet.sterling_silver.name=스탱은 합판
+item.tfc.metal.double_sheet.sterling_silver.name=스털링실버 합판
 item.tfc.metal.double_sheet.wrought_iron.name=연철 합판
 item.tfc.metal.double_sheet.pig_iron.name=철 합판
 item.tfc.metal.double_sheet.steel.name=강철 합판
@@ -3672,24 +3672,24 @@ item.tfc.metal.tuyere.black_steel.name=검은 강철 통풍구
 item.tfc.metal.tuyere.blue_steel.name=푸른 강철 통풍구
 item.tfc.metal.tuyere.red_steel.name=붉은 강철 통풍구
 
-item.tfc.metal.pick.bismuth_bronze.name=창연 청동 곡굉이
-item.tfc.metal.pick.black_bronze.name=검은 청동 곡굉이
-item.tfc.metal.pick.bronze.name=청동 곡굉이
-item.tfc.metal.pick.copper.name=구리 곡굉이
-item.tfc.metal.pick.wrought_iron.name=연철 곡굉이
-item.tfc.metal.pick.steel.name=강철 곡굉이
-item.tfc.metal.pick.black_steel.name=검은 강철 곡굉이
-item.tfc.metal.pick.blue_steel.name=푸른 강철 곡굉이
-item.tfc.metal.pick.red_steel.name=붉은 강철 곡굉이
-item.tfc.metal.pick_head.bismuth_bronze.name=창연 청동 곡굉이 머리
-item.tfc.metal.pick_head.black_bronze.name=검은 청동 곡굉이 머리
-item.tfc.metal.pick_head.bronze.name=청동 곡굉이 머리
-item.tfc.metal.pick_head.copper.name=구리 곡굉이 머리
-item.tfc.metal.pick_head.wrought_iron.name=연철 곡굉이 머리
-item.tfc.metal.pick_head.steel.name=강철 곡굉이 머리
-item.tfc.metal.pick_head.black_steel.name=검은 강철 곡굉이 머리
-item.tfc.metal.pick_head.blue_steel.name=푸른 강철 곡굉이 머리
-item.tfc.metal.pick_head.red_steel.name=붉은 강철 곡굉이 머리
+item.tfc.metal.pick.bismuth_bronze.name=창연 청동 곡괭이
+item.tfc.metal.pick.black_bronze.name=검은 청동 곡괭이
+item.tfc.metal.pick.bronze.name=청동 곡괭이
+item.tfc.metal.pick.copper.name=구리 곡괭이
+item.tfc.metal.pick.wrought_iron.name=연철 곡괭이
+item.tfc.metal.pick.steel.name=강철 곡괭이
+item.tfc.metal.pick.black_steel.name=검은 강철 곡괭이
+item.tfc.metal.pick.blue_steel.name=푸른 강철 곡괭이
+item.tfc.metal.pick.red_steel.name=붉은 강철 곡괭이
+item.tfc.metal.pick_head.bismuth_bronze.name=창연 청동 곡괭이 머리
+item.tfc.metal.pick_head.black_bronze.name=검은 청동 곡괭이 머리
+item.tfc.metal.pick_head.bronze.name=청동 곡괭이 머리
+item.tfc.metal.pick_head.copper.name=구리 곡괭이 머리
+item.tfc.metal.pick_head.wrought_iron.name=연철 곡괭이 머리
+item.tfc.metal.pick_head.steel.name=강철 곡괭이 머리
+item.tfc.metal.pick_head.black_steel.name=검은 강철 곡괭이 머리
+item.tfc.metal.pick_head.blue_steel.name=푸른 강철 곡괭이 머리
+item.tfc.metal.pick_head.red_steel.name=붉은 강철 곡괭이 머리
 item.tfc.metal.shovel.bismuth_bronze.name=창연 청동 삽
 item.tfc.metal.shovel.black_bronze.name=검은 청동 삽
 item.tfc.metal.shovel.bronze.name=청동 삽
@@ -4011,11 +4011,11 @@ item.tfc.metal.lamp.copper.name=구리 램프
 item.tfc.metal.lamp.gold.name=금 램프
 item.tfc.metal.lamp.lead.name=납 램프
 item.tfc.metal.lamp.nickel.name=니켈 램프
-item.tfc.metal.lamp.rose_gold.name=로즈금 램프
+item.tfc.metal.lamp.rose_gold.name=장미금 램프
 item.tfc.metal.lamp.silver.name=은 램프
 item.tfc.metal.lamp.tin.name=주석 램프
 item.tfc.metal.lamp.zinc.name=아연 램프
-item.tfc.metal.lamp.sterling_silver.name=스탱은 램프
+item.tfc.metal.lamp.sterling_silver.name=스털링실버 램프
 item.tfc.metal.lamp.wrought_iron.name=연철 램프
 item.tfc.metal.lamp.pig_iron.name=철 램프
 item.tfc.metal.lamp.steel.name=강철 램프
@@ -4115,7 +4115,7 @@ item.tfc.powder.graphite.name=흑연 분말
 item.tfc.powder.sulfur.name=황 분말
 item.tfc.powder.saltpeter.name=질석 분말
 item.tfc.powder.hematite.name=적철석 분말
-item.tfc.powder.lapis_lazuli.name=파리스 라줄리 분말
+item.tfc.powder.lapis_lazuli.name=청금석 분말
 item.tfc.powder.limonite.name=갈철석 분말
 item.tfc.powder.malachite.name=공작석 분말
 item.tfc.powder.salt.name=소금
@@ -4130,11 +4130,11 @@ item.tfc.ceramics.fired.mold.ingot.copper.name=형태없는 구리
 item.tfc.ceramics.fired.mold.ingot.gold.name=형태없는 금
 item.tfc.ceramics.fired.mold.ingot.lead.name=형태없는 납
 item.tfc.ceramics.fired.mold.ingot.nickel.name=형태없는 니켈
-item.tfc.ceramics.fired.mold.ingot.rose_gold.name=형태없는 로즈금
+item.tfc.ceramics.fired.mold.ingot.rose_gold.name=형태없는 장미금
 item.tfc.ceramics.fired.mold.ingot.silver.name=형태없는 은
 item.tfc.ceramics.fired.mold.ingot.tin.name=형태없는 주석
 item.tfc.ceramics.fired.mold.ingot.zinc.name=형태없는 아연
-item.tfc.ceramics.fired.mold.ingot.sterling_silver.name=형태없는 스탱은
+item.tfc.ceramics.fired.mold.ingot.sterling_silver.name=형태없는 스털링실버
 item.tfc.ceramics.fired.mold.ingot.wrought_iron.name=형태없는 연철
 item.tfc.ceramics.fired.mold.ingot.pig_iron.name=형태없는 철
 item.tfc.ceramics.fired.mold.ingot.platinum.name=형태없는 백금
@@ -4152,10 +4152,10 @@ item.tfc.ceramics.fired.mold.ingot.high_carbon_black_steel.name=형태없는 검
 item.tfc.ceramics.fired.mold.ingot.high_carbon_blue_steel.name=형태없는 푸른 고탄소강
 item.tfc.ceramics.fired.mold.ingot.high_carbon_red_steel.name=형태없는 붉은 고탄소강
 
-item.tfc.ceramics.fired.mold.ingot.name=빈 금형 괴
+item.tfc.ceramics.fired.mold.ingot.name=빈 괴 금형
 item.tfc.ceramics.fired.mold.ingot.unknown.name=알수없는 합금
 
-item.tfc.ceramics.fired.mold.pick_head.name=곡굉이 머리 형태틀
+item.tfc.ceramics.fired.mold.pick_head.name=곡괭이 머리 형태틀
 item.tfc.ceramics.fired.mold.shovel_head.name=삽 머리 형태틀
 item.tfc.ceramics.fired.mold.axe_head.name=도끼 머리 형태틀
 item.tfc.ceramics.fired.mold.hoe_head.name=괭이 머리 형태틀
@@ -4169,7 +4169,7 @@ item.tfc.ceramics.fired.mold.propick_head.name=탐색기 머리 형태틀
 item.tfc.ceramics.fired.mold.knife_blade.name=단검 날 형태틀
 item.tfc.ceramics.fired.mold.scythe_blade.name=낫 날 형태틀
 
-item.tfc.ceramics.fired.mold.pick_head.bronze.name=청동 곡굉이 머리 형태틀
+item.tfc.ceramics.fired.mold.pick_head.bronze.name=청동 곡괭이 머리 형태틀
 item.tfc.ceramics.fired.mold.shovel_head.bronze.name=청동 삽 머리 형태틀
 item.tfc.ceramics.fired.mold.axe_head.bronze.name=청동 도끼 머리 형태틀
 item.tfc.ceramics.fired.mold.hoe_head.bronze.name=청동 괭이 머리 형태틀
@@ -4183,7 +4183,7 @@ item.tfc.ceramics.fired.mold.propick_head.bronze.name=청동 탐색기 머리 �
 item.tfc.ceramics.fired.mold.knife_blade.bronze.name=청동 단검 칼날 형태틀
 item.tfc.ceramics.fired.mold.scythe_blade.bronze.name=청동 낫 날 형태틀
 
-item.tfc.ceramics.fired.mold.pick_head.black_bronze.name=검은 청동 곡굉이 머리 형태틀
+item.tfc.ceramics.fired.mold.pick_head.black_bronze.name=검은 청동 곡괭이 머리 형태틀
 item.tfc.ceramics.fired.mold.shovel_head.black_bronze.name=검은 청동 삽 머리 형태틀
 item.tfc.ceramics.fired.mold.axe_head.black_bronze.name=검은 청동 도끼 머리 형태틀
 item.tfc.ceramics.fired.mold.hoe_head.black_bronze.name=검은 청동 괭이 머리 형태틀
@@ -4197,7 +4197,7 @@ item.tfc.ceramics.fired.mold.propick_head.black_bronze.name=검은 청동 탐색
 item.tfc.ceramics.fired.mold.knife_blade.black_bronze.name=검은 청동 단검 칼날 형태틀
 item.tfc.ceramics.fired.mold.scythe_blade.black_bronze.name=검은 청동 낫 날 형태틀
 
-item.tfc.ceramics.fired.mold.pick_head.bismuth_bronze.name=창연 청동 곡굉이 머리 형태틀
+item.tfc.ceramics.fired.mold.pick_head.bismuth_bronze.name=창연 청동 곡괭이 머리 형태틀
 item.tfc.ceramics.fired.mold.shovel_head.bismuth_bronze.name=창연 청동 삽 머리 형태틀
 item.tfc.ceramics.fired.mold.axe_head.bismuth_bronze.name=창연 청동 도끼 머리 형태틀
 item.tfc.ceramics.fired.mold.hoe_head.bismuth_bronze.name=창연 청동 괭이 머리 형태틀
@@ -4211,7 +4211,7 @@ item.tfc.ceramics.fired.mold.propick_head.bismuth_bronze.name=창연 청동 탐�
 item.tfc.ceramics.fired.mold.knife_blade.bismuth_bronze.name=창연 청동 단검 날 형태틀
 item.tfc.ceramics.fired.mold.scythe_blade.bismuth_bronze.name=창연 청동 낫 날 형태틀
 
-item.tfc.ceramics.fired.mold.pick_head.copper.name=구리 곡굉이 머리 형태틀
+item.tfc.ceramics.fired.mold.pick_head.copper.name=구리 곡괭이 머리 형태틀
 item.tfc.ceramics.fired.mold.shovel_head.copper.name=구리 삽 머리 형태틀
 item.tfc.ceramics.fired.mold.axe_head.copper.name=구리 도끼 머리 형태틀
 item.tfc.ceramics.fired.mold.hoe_head.copper.name=구리 괭이 머리 형태틀
@@ -4226,7 +4226,7 @@ item.tfc.ceramics.fired.mold.knife_blade.copper.name=구리 단검 칼날 형태
 item.tfc.ceramics.fired.mold.scythe_blade.copper.name=구리 낫 날 형태틀
 
 item.tfc.ceramics.unfired.mold.ingot.name=굽지않은 괴 형태틀
-item.tfc.ceramics.unfired.mold.pick_head.name=굽지않은 곡굉이 머리 형태틀
+item.tfc.ceramics.unfired.mold.pick_head.name=굽지않은 곡괭이 머리 형태틀
 item.tfc.ceramics.unfired.mold.shovel_head.name=굽지않은 삽 머리 형태틀
 item.tfc.ceramics.unfired.mold.axe_head.name=굽지않은 도끼 머리 형태틀
 item.tfc.ceramics.unfired.mold.hoe_head.name=굽지않은 괭이 머리 형태틀
@@ -4412,16 +4412,16 @@ item.tfc.food.rye_bread_sandwich.name=호밀 샌드위치
 item.tfc.food.oat_bread_sandwich.name=귀리 샌드위치
 item.tfc.food.wheat_bread_sandwich.name=샌드위치
 item.tfc.food.rice_bread_sandwich.name=쌀빵 샌드위치
-item.tfc.food.soup_grain.name=건강한 스프
-item.tfc.food.soup_fruit.name=맛있는 스프
-item.tfc.food.soup_vegetable.name=기분좋은 스프
-item.tfc.food.soup_meat.name=곱빼기 스프
+item.tfc.food.soup_grain.name=곡물 스프
+item.tfc.food.soup_fruit.name=과일 스프
+item.tfc.food.soup_vegetable.name=야채 스프
+item.tfc.food.soup_meat.name=고기 스프
 item.tfc.food.soup_dairy.name=크림 스프
-item.tfc.food.salad_grain.name=아삭 샐러드
-item.tfc.food.salad_fruit.name=달콤한 샐러드
-item.tfc.food.salad_vegetable.name=건강 샐러드
-item.tfc.food.salad_meat.name=맛있는 샐러드
-item.tfc.food.salad_dairy.name=역겨운 샐러드
+item.tfc.food.salad_grain.name=곡물 샐러드
+item.tfc.food.salad_fruit.name=과일 샐러드
+item.tfc.food.salad_vegetable.name=야채 샐러드
+item.tfc.food.salad_meat.name=고기 샐러드
+item.tfc.food.salad_dairy.name=느끼한 샐러드
 
 item.tfc.crop.seeds.barley.name=보리 씨앗
 item.tfc.crop.seeds.beet.name=사탕무 씨앗
@@ -4494,14 +4494,30 @@ entity.sabertoothtfc.name=검치호
 entity.cameltfc.name=낙타
 entity.liontfc.name=사자
 entity.hyenatfc.name=하이에나
+entity.direwolftfc.name=다이어울프
+entity.haretfc.name=산토끼
+entity.boartfc.name=멧돼지
+entity.zebutfc.name=혹소
+entity.gazelletfc.name=가젤
+entity.wildebeesttfc.name=영양
+entity.quailtfc.name=메추라기
+entity.grousetfc.name=멧닭
+entity.mongoosetfc.name=몽구스
+entity.turkeytfc.name=칠면조
+entity.jackaltfc.name=승냥이
+entity.muskoxtfc.name=사향소
+entity.yaktfc.name=야크
+entity.blackbeartfc.name=검은 곰
+entity.cougartfc.name=쿠거
+entity.coyotetfc.name=코요테
 
 #TFC death messages
-death.attack.dehydration=%1$s 탈수로 사망함
-death.attack.food_poison=%1$s 식중독으로 사망함
-death.attack.plucking=%1$s 깃털뽑다 사망함
+death.attack.dehydration=%1$s 가 탈수로 사망했습니다. 주전자는 안들고 다니세요?
+death.attack.food_poison=%1$s 가 식중독으로 사망했습니다. 저런.. 음식을 잘 드셨어야죠.
+death.attack.plucking=%1$s 가 깃털뽑혀 사망했습니다.
 
 #Effects
-effectsTFC.overburdened=과중량
+effectsTFC.overburdened=과중
 effectsTFC.thirst=갈증
 effectsTFC.food_poison=식중독
 
@@ -4510,19 +4526,19 @@ tfc.animal.sheeptfc.male=숫양
 tfc.animal.sheeptfc.female=암양
 tfc.animal.cowtfc.male=숫소
 tfc.animal.cowtfc.female=암소
-tfc.animal.beartfc.male=숫컷곰
+tfc.animal.beartfc.male=수컷곰
 tfc.animal.beartfc.female=암컷곰
-tfc.animal.pigtfc.male=숫컷돼지
+tfc.animal.pigtfc.male=수컷돼지
 tfc.animal.pigtfc.female=암컷돼지
 tfc.animal.chickentfc.male=수탉
 tfc.animal.chickentfc.female=암닭
-tfc.animal.deertfc.male=숫컷사슴
+tfc.animal.deertfc.male=수컷사슴
 tfc.animal.deertfc.female=암컷사슴
-tfc.animal.pheasanttfc.male=숫컷꿩
+tfc.animal.pheasanttfc.male=수컷꿩
 tfc.animal.pheasanttfc.female=암컷꿩
-tfc.animal.rabbittfc.male=숫컷토끼
+tfc.animal.rabbittfc.male=수컷토끼
 tfc.animal.rabbittfc.female=암컷토끼
-tfc.animal.wolftfc.male=숫컷늑대
+tfc.animal.wolftfc.male=수컷늑대
 tfc.animal.wolftfc.female=암컷늑대
 tfc.animal.horsetfc.male=숫말
 tfc.animal.horsetfc.female=암말
@@ -4532,7 +4548,7 @@ tfc.animal.muletfc.male=수컷노새
 tfc.animal.muletfc.female=암컷노새
 tfc.animal.parrottfc.male=수컷앵무새
 tfc.animal.parrottfc.female=암컷앵무새
-tfc.animal.llamatfc.male=숫컷라마
+tfc.animal.llamatfc.male=수컷라마
 tfc.animal.llamatfc.female=암컷라마
 tfc.animal.polarbeartfc.male=수컷북극곰
 tfc.animal.polarbeartfc.female=암컷북극곰
@@ -4556,6 +4572,38 @@ tfc.animal.liontfc.male=숫사자
 tfc.animal.liontfc.female=암사자
 tfc.animal.hyenatfc.male=수컷하이에나
 tfc.animal.hyenatfc.female=암컷하이에나
+tfc.animal.direwolftfc.male=수컷다이어울프
+tfc.animal.direwolftfc.female=암컷다이어울프
+tfc.animal.haretfc.male=수컷산토끼
+tfc.animal.haretfc.female=암컷산토끼
+tfc.animal.boartfc.male=수컷멧돼지
+tfc.animal.boartfc.female=암컷멧돼지
+tfc.animal.zebutfc.male=수컷혹소
+tfc.animal.zebutfc.female=암컷혹소
+tfc.animal.gazelletfc.male=수컷가젤
+tfc.animal.gazelletfc.female=암컷가젤
+tfc.animal.wildebeesttfc.male=수컷영양
+tfc.animal.wildebeesttfc.female=암컷영양
+tfc.animal.quailtfc.male=수컷메추라기
+tfc.animal.quailtfc.female=암컷메추라기
+tfc.animal.grousetfc.male=수컷멧닭
+tfc.animal.grousetfc.female=암컷멧닭
+tfc.animal.mongoosetfc.male=수컷몽구스
+tfc.animal.mongoosetfc.female=암컷몽구스
+tfc.animal.turkeytfc.male=수컷칠면조
+tfc.animal.turkeytfc.female=암컷칠면조
+tfc.animal.jackaltfc.male=수컷승냥이
+tfc.animal.jackaltfc.female=암컷승냥이
+tfc.animal.muskoxtfc.male=수컷사향소
+tfc.animal.muskoxtfc.female=암컷사향소
+tfc.animal.yaktfc.male=수컷야크
+tfc.animal.yaktfc.female=암컷야크
+tfc.animal.blackbeartfc.male=수컷검은곰
+tfc.animal.blackbeartfc.female=암컷검은곰
+tfc.animal.cougartfc.male=수컷쿠거
+tfc.animal.cougartfc.female=암컷쿠거
+tfc.animal.coyotetfc.male=수컷코요테
+tfc.animal.coyotetfc.female=암컷코요테
 
 # Sound Events
 tfc.item.ceramicbreak=세라믹 아이템 부수기
@@ -4614,13 +4662,64 @@ tfc.animal.hyena.say=하이에나 으르렁소리
 tfc.animal.hyena.cry=하이에나 울음소리
 tfc.animal.hyena.hurt=하이에나 비명소리
 tfc.animal.hyena.death=하이에나가 죽었다
+tfc.animal.zebu.say=혹소 숨소리
+tfc.animal.zebu.cry=Zebu cries
+tfc.animal.zebu.hurt=Zebu hurts
+tfc.animal.zebu.death=Zebu dies
+tfc.animal.muskox.say=사향소 숨소리
+tfc.animal.muskox.cry=Muskox cries
+tfc.animal.muskox.hurt=Muskox hurts
+tfc.animal.muskox.death=Muskox dies
+tfc.animal.turkey.say=칠면조 숨소리
+tfc.animal.turkey.cry=Turkey cries
+tfc.animal.turkey.hurt=Turkey hurts
+tfc.animal.turkey.death=Turkey dies
+tfc.animal.boar.say=멧돼지 숨소리
+tfc.animal.boar.cry=Boar cries
+tfc.animal.boar.hurt=Boar hurts
+tfc.animal.boar.death=Boar dies
+tfc.animal.wildebeest.say=영양 울음소리
+tfc.animal.wildebeest.hurt=Wildebeest hurts
+tfc.animal.wildebeest.death=Wildebeest dies
+tfc.animal.quail.say=메추라기 울음소리
+tfc.animal.quail.hurt=Quail hurts
+tfc.animal.quail.death=Quail dies
+tfc.animal.grouse.say=멧닭 울음소리
+tfc.animal.grouse.hurt=Grouse hurts
+tfc.animal.grouse.death=Grouse dies
+tfc.animal.cougar.say=쿠거 으르렁소리
+tfc.animal.cougar.cry=Cougar cries
+tfc.animal.cougar.hurt=Cougar hurts
+tfc.animal.cougar.death=Cougar dies
+tfc.animal.coyote.say=코요테 으르렁소리
+tfc.animal.coyote.cry=Coyote cries
+tfc.animal.coyote.hurt=Coyote hurts
+tfc.animal.coyote.death=Coyote dies
+tfc.animal.gazelle.say=가젤 숨소리
+tfc.animal.gazelle.hurt=Gazelle hurts
+tfc.animal.gazelle.death=Gazelle dies
+tfc.animal.direwolf.cry=다이어울프 으르렁소리
+tfc.animal.direwolf.say=Direwolf barks
+tfc.animal.direwolf.hurt=Direwolf whimpers
+tfc.animal.direwolf.death=Direwolf dies
+tfc.animal.yak.say=야크 울음소리
+tfc.animal.yak.hurt=Yak groans
+tfc.animal.yak.death=Yak dies
+tfc.animal.jackal.say=승냥이 으르렁소리
+tfc.animal.jackal.cry=Jackal yelps
+tfc.animal.jackal.hurt=Jackal hurts
+tfc.animal.jackal.death=Jackal dies
+tfc.animal.mongoose.say=몽구스 으르렁소리
+tfc.animal.mongoose.hurt=Mongoose hurts
+tfc.animal.mongoose.death=Mongoose dies
+tfc.animal.feline.step=고양이 발걸음 소리
 tfc.animal.cricket=귀뚜라미소리
 tfc.animal.frog=개구리소리
 
 ## Advancements
 
 # Main Quest
-# Stone Age
+# 석기시대
 advancements.tfc.main.root.title=TerraFirmaCraft
 advancements.tfc.main.root.description=TFC's 주 진행라인.
 advancements.tfc.main.pick_rock.title=그저 돌맹이
@@ -4647,11 +4746,11 @@ advancements.tfc.main.stone_anvil.title=망치질 시간
 advancements.tfc.main.stone_anvil.description=망치로 돌을때려 첫 모루를 만드시오.
 advancements.tfc.main.metal_casting.title=쏟아지는 금속
 advancements.tfc.main.metal_casting.description=금속도구 형태틀을 만드세요.
-# 구리 and 청동 Ages
+# 구리와 청동기 시대
 advancements.tfc.main.copper_age.title=구리시대
 advancements.tfc.main.copper_age.description=구리도구를 만들어 구리시대로 들어가시오.
-advancements.tfc.main.mining.title=나의 시간 (드디어!)
-advancements.tfc.main.mining.description=곡굉이를 만들자.
+advancements.tfc.main.mining.title=으하하 드디어 나의 시간이다!
+advancements.tfc.main.mining.description=곡괭이를 만들자.
 advancements.tfc.main.carpentry.title=목수공
 advancements.tfc.main.carpentry.description=톱을 만들자.
 advancements.tfc.main.make_barrel.title=이건 둥근 통이야!
@@ -4674,7 +4773,7 @@ advancements.tfc.main.make_bellows.title=공기 주입
 advancements.tfc.main.make_bellows.description=가죽으로 풀무를 만들자.
 advancements.tfc.main.bronze_age.title=청동기 시대
 advancements.tfc.main.bronze_age.description=청동모루를 만들어라.
-# Iron Age
+# 철기 시대
 advancements.tfc.main.make_bloomery.title=철만들기
 advancements.tfc.main.make_bloomery.description=괴철로 만들기.
 advancements.tfc.main.iron_bloom.title=괴철
@@ -4721,7 +4820,7 @@ advancements.tfc.world.baker.description=빵을 만드십시오.
 advancements.tfc.world.botanist.title=식물학자
 advancements.tfc.world.botanist.description=모든 작물의 씨앗을 얻으십시오.
 advancements.tfc.world.rutabaga.title=멍청한 양파 ...
-advancements.tfc.world.rutabaga.description=루타비가를 찾으십시오.
+advancements.tfc.world.rutabaga.description=순무를 찾으십시오.
 advancements.tfc.world.first_familiarity.title=친구 사귀기
 advancements.tfc.world.first_familiarity.description=동물을 길들이십시오.
 advancements.tfc.world.wolf_familiarity.title=내 최고의 친구
@@ -4743,7 +4842,7 @@ advancements.tfc.world.make_propick.title=탐색
 advancements.tfc.world.make_propick.description=탐사기를 만드시오.
 advancements.tfc.world.geologist.title=지질학자
 advancements.tfc.world.geologist.description=모든 석재 종류에서 돌맹이를 얻고 모든 보석에서 표본을 얻으십시오.
-advancements.tfc.world.find_diamonds.title=젠장- 오 잠깐...
+advancements.tfc.world.find_diamonds.title=오... 형이 왜 여기서 나와?
 advancements.tfc.world.find_diamonds.description=다이아몬드를 찾으세요.
 advancements.tfc.world.find_coal.title=석탄들
 advancements.tfc.world.find_coal.description=역청탄 이나 갈탄을 찾으세요.
@@ -4764,7 +4863,7 @@ advancements.tfc.world.find_nickel.description=규니켈석 광물을 찾으세�
 
 # Waila
 waila.tfc.ore_drop=%s 포함됨
-waila.tfc.flux_stone=플럭스
+waila.tfc.flux_stone=융제 (플럭스)
 waila.tfc.temperature=기온: %dºC
 waila.tfc.metal.output= %s 의 %d 단위를 포함합니다
 
@@ -4798,7 +4897,7 @@ waila.tfc.crop.not_growing=자라지않음
 waila.tfc.animal.has_milk=우유 짤수있음
 waila.tfc.animal.can_mate=짝짓기 가능
 waila.tfc.animal.has_eggs=계란 얻을수있음
-waila.tfc.animal.childhood_end= %s 때 성인이 됨
+waila.tfc.animal.childhood_end= %s 때 성체가 됨
 waila.tfc.animal.familiarized=익숙해짐
 waila.tfc.animal.not_familiarized=낯설음
 waila.tfc.animal.old=이 동물은 늙었다
